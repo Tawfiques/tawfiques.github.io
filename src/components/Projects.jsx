@@ -20,6 +20,7 @@ const Projects = () => {
       image: quiznestimg,
       logos: [htmllogo, csslogo, jslogo, reactlogo, mongodblogo, tailwindlogo, reduxlogo, materiallogo],
       github: "https://github.com/Tawfiques/QuizNest",
+      demo: "https://quiznest.onrender.com",
     },
     {
       title: "ToDo App",

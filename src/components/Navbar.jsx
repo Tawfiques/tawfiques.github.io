@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <NavLink to="/education" className={({ isActive }) => isActive ? "text-white border-b-2 border-valorantRed" : "hover:text-[#bbb4b4]"}>Education</NavLink>
       <NavLink to="/about" className={({ isActive }) => isActive ? "text-white border-b-2 border-valorantRed" : "hover:text-[#bbb4b4] "}>About</NavLink>
       <NavLink to="/projects" className={({ isActive }) => isActive ? "text-white border-b-2 border-valorantRed" : "hover:text-[#bbb4b4]"}>Projects</NavLink>
-      <Link to="/resume" className="ml-auto px-6 py-2 bg-valorantRed text-center text-xs sm:text-sm rounded-lg hover:bg-valorantRed/80 text-[#fff]">Resume</Link>
+      <a href="https://drive.google.com/file/d/1rJGqSPi6wM9XXl0gVhHKt-zSCpoMR5XH/view?usp=sharing" className="ml-auto px-6 py-2 bg-valorantRed text-center text-xs sm:text-sm rounded-lg hover:bg-valorantRed/80 text-[#fff]" target="_blank" rel="noopener noreferrer">Resume</a>
     </nav>
   );
 };
